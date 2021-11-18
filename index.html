@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="55555">
+    <meta name="keywords" content="55555">
+    <meta name="author" content="55555">
+    <link rel="shortcut icon" href="images/cart.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d47cb01634.js" crossorigin="anonymous"></script>
+    <title>Iot Dti Shopping 2021</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Prompt', sans-serif;
+            user-select: none;
+        }
+        .navBar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+        .logo img{
+            -webkit-user-drag: none;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            height: 70px;
+        }
+        nav ul li{
+            list-style: none;
+        }
+        nav ul li a{
+            text-decoration: none;
+            padding: 0 1rem;
+            color: #555555; 
+        }
+        nav ul li a:hover{
+            font-weight: bold;
+        }
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header{
+            background: radial-gradient(#fff,#ffd6d6);
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+        .col-2 h1{
+            font-size: 50px;
+            margin: 25px 0;
+        }
+        .col-2 button{
+            margin-top: 1rem;
+            background-color: #f33211; 
+            border: none;
+            border-radius: 20px;
+            transition: .2s;
+        }
+        .col-2 button a{ 
+            display: inline-block;
+            padding: .4rem 1.2rem;
+            text-decoration: none;
+            color: #fff;
+        }
+        .col-2 button:hover{ 
+            background-color: #eb634b;
+        }    
+        .col-2{
+            width: 500px;
+            height: 450px;
+        }
+        .col-2 img{
+            width: 100%;
+            height: 100%;
+            -webkit-user-drag: none;
+        }
+        section{
+            height: 350px;
+        }
+        .showCategory{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .showCategory figure{
+            width: 300px;
+            height: 300px;
+        }
+        .showCategory figure img{
+            width: 100%;
+            height: 100%;
+            -webkit-user-drag: none;
+        }
+        .featureProduct{
+            margin-top: 2rem;
+        }
+        .container3 h2{
+            text-align: center;
+        }
+        .container3 hr{
+            margin: 0 auto;
+            border: none;
+            width: 55px;
+            height: 5px;
+            background-color: #eb634b;
+        }
+        .wrapper{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .content{
+            box-shadow: 0 0 2px #444;
+            cursor: pointer;
+            transition: .2s;
+        }
+        .content:hover{
+            transform: translateY(-10px);
+        }
+        .content a{
+            color: #333;
+        }
+        .content figure{
+            width: 300px;
+            height: 300px;
+        }
+        .content figure img{
+            width: 100%;
+            height: 100%;
+        }
+        .content figcaption{
+            padding: 1rem .5rem;
+        }
+        .content a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navBar">
+                <figure class="logo">
+                    <img src="images/logo.png" width="120px" alt="LogoWeb">
+                </figure>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Accout</a></li>
+                        <li><a href="#"><img src="images/cart.png" width="25px" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>If Your Workout <br>A New Style</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora corrupti quia dolorum non voluptates aut ea beatae consectetur, nihil eos nesciunt nulla cupiditate hic, illum laboriosam error temporibus excepturi unde?</p>
+                    <button><a href="">Explore Now &#x2794;</a></button>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header> 
+    <section >
+        <div class="showCategory">
+            <figure>
+                <img src="images/category-1.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="images/category-2.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="images/category-3.jpg" alt="">
+            </figure>
+        </div>
+        <div class="featureProduct">
+            <div class="container3">
+                <h2>FeatureProduct</h2>
+                <hr>
+            </div>
+            <div class="wrapper">
+                <div class="content">
+                    <a href="">
+                        <figure>
+                            <img src="images/product-1.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <h4>Red Printed T Shirt</h4>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+                            <i class="fas fa-dollar-sign"></i>999
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="">
+                        <figure>
+                            <img src="images/product-2.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <h4>Shoes</h4>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+                            <i class="fas fa-dollar-sign"></i>999
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="">
+                        <figure>
+                            <img src="images/product-3.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <h4>Plant</h4>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+                            <i class="fas fa-dollar-sign"></i>999
+                        </figcaption>
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="">
+                        <figure>
+                            <img src="images/product-4.jpg" alt="">
+                        </figure>
+                        <figcaption>
+                            <h4>Blue Printed T Shirt</h4>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>
+                            <i class="fas fa-dollar-sign"></i>999
+                        </figcaption>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
